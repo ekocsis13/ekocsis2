@@ -99,7 +99,7 @@ background-image {
   display: inline;
   width: 60%;
   box-sizing: border-box;
-  background: orange;
+  /* background: orange; */
 }
 .fotobox-felirat {
   align-items: flex-start;
@@ -191,7 +191,7 @@ blockquote {
 /*   quotes: ; */
   margin: 0px; 
   padding: 0px ;
-  background: red;
+  /* background: red; */
   box-sizing: border-box;
 /*   position: relative; */
 /*   top: -0px; */
@@ -199,7 +199,7 @@ blockquote {
   
 }
 .belso {
-  background: cyan;
+  /* background: cyan; */
   box-sizing: border-box;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
