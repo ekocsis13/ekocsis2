@@ -1,0 +1,218 @@
+body {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  background: black;
+  align-content: center; 
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: light;
+  font-size: 30px;
+/*   justify-content: center; */
+}
+.mainline {
+  color: white;
+  background: none;
+  text-transform: capitalize;
+  display: inline;
+  padding: 30px 30px;
+}
+.container {
+/*   background: red; */
+  align-content: center; 
+  justify-content: center;
+  display: flex;
+  
+}
+.fotobox {
+  background-image: url(https://aisvip-a.akamaihd.net/masters/520356/1000x562/hayden-christensen-warum-er-den-star-wars-ruhm-satt-hatte.jpg);
+  
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto 100% ;
+/*   background: blue; */
+  height:430px;
+/*   display: inline; */
+  display: flex;
+  box-sizing: border-box;
+  width: 40%;
+  font-family: 'Abril Fatface', cursive;
+  filter:blur (5px);
+
+}
+background-image {
+  filter:blur (5px);
+}
+
+.tartalom1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  color:#222;
+  display: inline;
+/*   display: flex; */
+  width: 60%;
+  box-sizing: border-box;
+/*   background: cyan; */
+}
+  
+.container2 {
+/*   background: green; */
+  justify-content: center; 
+  display: flex;
+  flex-direction: row;
+  
+/*   font-family: 'Abril Fatface', cursive; */
+/*   font-family: 'Josefin Sans', sans-serif; */
+/*   font-family: 'Merriweather', serif; */
+     
+  }
+.container3  {
+/*   display: inline; */
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.hatter {
+/*   display: flex; */
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  width: 40%;
+  background: none;
+}
+.citate {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 55px;
+  line-height: 1.25;
+  background: #222;
+  color: white;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0px 40px 0px 45px;
+  margin: 0px;
+}
+
+.tartalom {
+  font-family: 'Josefin Sans', sans-serif;
+  color:#222;
+  display: inline;
+  width: 60%;
+  box-sizing: border-box;
+  background: orange;
+}
+.fotobox-felirat {
+  align-items: flex-start;
+  justify-content:flex-end;
+/*   background: yellow; */
+  display: flex;
+  padding: 10px 10px 30px 60px;
+  flex-direction: column;
+  color:#222;
+
+/*   align: center; */
+/*   flex-wrap: wrap; */
+}
+.focimbox {
+/*   background: lime; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.alcimbox {
+/*   background: lime; */
+  display: flex;
+}
+
+p2 {
+/*   color:red; */
+  font-size:35px;
+  margin: 0px;
+  padding: 0px 0px 0px;
+  line-height: 1.3;
+
+}
+p3 {
+/*   color:green; */
+  font-size:75px;
+  margin: px;
+  padding: 0px 0px 0px 0px;
+  line-height: 1;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+h1  {
+  text-transform: uppercase;
+  padding: 45px 15px 25px;
+}
+h2  {
+  padding: 0px 15px 0px;
+  margin: 5px 0px;
+  line-height: 1.3;
+  font-size: 28px
+}
+h3 {
+/*   font-size: 30px; */
+  padding: 0px 15px 0px;
+  margin: 0px;
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  font-style: italic;
+}
+P {
+  padding: 0px 15px 0px;
+  line-height: 1.3;
+}
+ul {
+  padding: 0px 50px 35px;
+  line-height: 1.3;
+}
+.ul1
+
+
+li  {
+  font-size: 15px;
+  padding: 3px ;
+}
+.folista  {
+  font-size: 20px;
+  padding: 3px ;
+}
+blockquote::before {
+  content: '\201C';
+  font-size: 2.5em;
+  position: relative;
+  top: -30px;
+  left: -40px;
+  background: green;
+  
+}
+blockquote {
+/*   quotes: ; */
+  margin: 0px; 
+  padding: 0px ;
+  background: red;
+  box-sizing: border-box;
+/*   position: relative; */
+/*   top: -0px; */
+/*   left: -0px; */
+  
+}
+.belso {
+  background: cyan;
+  box-sizing: border-box;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  position: relative;
+  top: -120px;
+  left: -0px;
+  
+  
+/*   justify-content: flex-start; */
+}
+
+p1 {
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.3;
+}
